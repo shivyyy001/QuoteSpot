@@ -1,0 +1,118 @@
+.outer {
+  width: 50%;
+  border-radius: 20px;
+  background-color: #a60059;
+  margin: 8% 0%;
+}
+
+.card {
+  height: auto;
+  width: 60%;
+  margin: 40px;
+}
+
+.blockquote {
+  padding-left: 40px;
+  font-family: "Lobster", cursive;
+  font-size: 20px;
+}
+
+@media screen and (min-width: 1050px) {
+  .outer {
+    width: 50%;
+  }
+  .card {
+    width: 80%;
+    margin: 40px;
+  }
+  .blockquote {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .outer {
+    width: 70%;
+  }
+  .card {
+    width: 60%;
+    margin: 40px;
+  }
+  .blockquote {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .outer {
+    width: 70%;
+  }
+  .card {
+    width: 60%;
+    margin: 40px;
+  }
+  .blockquote {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .outer {
+    width: 100%;
+  }
+  .card {
+    width: 100%;
+    margin: 40px;
+  }
+  .blockquote {
+    font-size: 25px;
+  }
+  .btn {
+    font-size: 20px;
+  }
+  .btn-sm {
+    height: 30px;
+    width: 70px;
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .outer {
+    width: 100%;
+  }
+  .card {
+    width: 100%;
+    margin: 40px;
+  }
+  .blockquote {
+    font-size: 20px;
+  }
+  .btn {
+    font-size: 20px;
+  }
+  .btn-sm {
+    height: 30px;
+    width: 70px;
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 250px) {
+  .outer {
+    width: 100%;
+  }
+  .card {
+    width: 100%;
+    margin: 40px;
+  }
+  .blockquote {
+    font-size: 10px;
+  }
+  .btn {
+    font-size: 10px;
+  }
+  .btn-sm {
+    height: 100%;
+    width: 30px;
+    font-size: 5px;
+  }
+}
